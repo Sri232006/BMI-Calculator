@@ -34,17 +34,7 @@ weight_entry.pack(pady=5)
 tk.Label(root, text="Height (cm):", font=label_font, bg="#1e1e2e", fg="#ffffff").pack()
 height_entry = tk.Entry(root, font=label_font, width=20, justify='center')
 height_entry.pack(pady=5)
-tk.Button(
-    root,
-    text="Calculate BMI",
-    command=calculate_bmi,
-    font=button_font,
-    bg="#89b4fa",
-    fg="black",
-    activebackground="#74c7ec",
-    relief="flat",
-    padx=10,
-    pady=5).pack(pady=20)
+tk.Button( root,text="Calculate BMI", command=calculate_bmi,font=button_font,bg="#89b4fa",fg="black",activebackground="#74c7ec", relief="flat",padx=10,pady=5).pack(pady=20)
 result_label = tk.Label(root, text="", font=label_font, bg="#1e1e2e", fg="#ffffff")
 result_label.pack(pady=10)
 root.mainloop()
