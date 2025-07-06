@@ -23,7 +23,7 @@ def calculate_bmi():
 root = tk.Tk()
 root.title("BMI Calculator")
 root.geometry("350x400")
-root.configure(bg="#1e1e2e")  # dark background
+root.configure(bg="#1e1e2e")  
 heading_font = ("Helvetica", 16, "bold")
 label_font = ("Helvetica", 12)
 button_font = ("Helvetica", 11, "bold")
