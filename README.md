@@ -12,7 +12,9 @@ The application allows users to enter their *weight (in kilograms)* and *height 
 
 
 # How to Run the Project
+
 python bmi_gui.py
 
 # Created by SRIKA S
+
 As part of *Oasis Infobyte Internship*
